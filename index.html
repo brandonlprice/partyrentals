@@ -30,6 +30,14 @@
     <script src="https://use.fontawesome.com/5d6e6711e6.js"></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+<style>
+@media only screen and (max-width: 600px) {
+  #googlecal {
+    width: 290px;
+    height: 350px;
+  }
+}
+</style>
 <body id="top">
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
@@ -172,7 +180,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <h3 class="text-center section-padding">Availability</h3>
-                   <iframe src="https://calendar.google.com/calendar/embed?src=u8ljsv4ae56oijud181ghae7ko%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="550" height="600" frameborder="0" scrolling="no"></iframe>
+                   <iframe id="googlecal" src="https://calendar.google.com/calendar/embed?src=u8ljsv4ae56oijud181ghae7ko%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="550" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
